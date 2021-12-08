@@ -19,3 +19,18 @@
 .bg-main {
     background-color: #ae122a;
 }
+
+.text-main {
+    color: #ae122a;
+}
+
+.footer-link {
+    border-color: transparent transparent transparent transparent !important;
+    border-bottom-width: 4px !important;
+    border-style: solid;
+    transition: 100ms;
+}
+
+.footer-link:hover {
+    border-bottom-color: #ae122a !important;
+}
