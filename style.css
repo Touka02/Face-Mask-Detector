@@ -1,6 +1,21 @@
-.section-1 {
-    height: calc(100vh - 56px);
-}
 .h-100vh {
     height: 100vh;
+}
+
+.nav-link {
+    transition: 0ms;
+    border-color: white white white white !important;
+    border-bottom-width: 4px !important;
+    border-style: solid;
+}
+
+.nav-link:hover {
+    border-bottom-color: #ae122a !important;
+}
+.nav-link-active {
+    border-bottom-color: #ae122a !important;
+}
+
+.bg-main {
+    background-color: #ae122a;
 }
