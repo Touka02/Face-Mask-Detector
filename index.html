@@ -26,9 +26,9 @@
             <div class="d-flex">
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#s2"> Overview</a>
-                    <a class="nav-link active" href="#s3">Team members</a>
-                    <a class="nav-link active" href="#s4">Special Thanks</a>
+                    <a class="nav-link active" aria-current="page" href="#s1"> Overview</a>
+                    <a class="nav-link active" href="#s2">Details</a>
+                    <a class="nav-link active" href="#s3">Team</a>
                 </div>
                 </div>
             </div>
@@ -51,21 +51,69 @@
         </div>
     </div>
 
-    <div id="s2" class="w-100 h-100vh bg-warning d-flex align-items-center justify-content-center">
+    <div id="s2" class="w-100 min-h-100vh d-flex flex-column align-items-center">
+        <div class="d-flex align-items-stretch my-5">
+            <div style="max-width: 550px;font-size: 1.3rem;" class="ms-4 mb-0">
+                <h3 class="mb-3">Something</h3>
+                <p class="text-secondary"> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi velit debitis est, aspernatur officia excepturi similique assumenda animi reprehenderit praesentium soluta voluptatum ipsa, at possimus odio asperiores quia deserunt!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi velit debitis est, aspernatur officia excepturi similique assumenda animi reprehenderit praesentium soluta voluptatum ipsa, at possimus odio asperiores quia deserunt!
+                </p>
+            </div>
+            <div style="width: 550px;background-color: gray;" class="ms-4"></div>
+        </div>
+
+        <div class="d-flex align-items-stretch my-5">
+            <div style="width: 550px;background-color: gray;" class="me-4"></div>
+            <div style="max-width: 550px;font-size: 1.3rem;" class="ms-4 mb-0">
+                <h3 class="mb-3">Something</h3>
+                <p class="text-secondary"> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi velit debitis est, aspernatur officia excepturi similique assumenda animi reprehenderit praesentium soluta voluptatum ipsa, at possimus odio asperiores quia deserunt!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi velit debitis est, aspernatur officia excepturi similique assumenda animi reprehenderit praesentium soluta voluptatum ipsa, at possimus odio asperiores quia deserunt!
+                </p>
+            </div>
+
+        </div>
+
+        <div class="d-flex align-items-stretch my-5">
+            <div style="max-width: 550px;font-size: 1.3rem;" class="ms-4 mb-0">
+                <h3 class="mb-3">Something</h3>
+                <p class="text-secondary"> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi velit debitis est, aspernatur officia excepturi similique assumenda animi reprehenderit praesentium soluta voluptatum ipsa, at possimus odio asperiores quia deserunt!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi velit debitis est, aspernatur officia excepturi similique assumenda animi reprehenderit praesentium soluta voluptatum ipsa, at possimus odio asperiores quia deserunt!
+                </p>
+            </div>
+            <div style="width: 550px;background-color: gray;" class="ms-4"></div>
+        </div>
+
+        <div class="d-flex align-items-stretch my-5">
+            <!-- <div style="width: 550px;background-color: gray;" class="me-4"></div> -->
+            <iframe width="550" class="me-4"
+                src="https://www.youtube.com/embed/Dmrp2spuOr0">
+            </iframe>
+            <div style="max-width: 550px;font-size: 1.3rem;" class="ms-4 mb-0">
+                <h3 class="mb-3">Something</h3>
+                <p class="text-secondary"> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi velit debitis est, aspernatur officia excepturi similique assumenda animi reprehenderit praesentium soluta voluptatum ipsa, at possimus odio asperiores quia deserunt!
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nisi velit debitis est, aspernatur officia excepturi similique assumenda animi reprehenderit praesentium soluta voluptatum ipsa, at possimus odio asperiores quia deserunt!
+                </p>
+            </div>
+        </div>
+
+        <!-- <div>
+            <h2 class="w-100 text-center">Video Presentation</h2>
+            <iframe width="550" height="315"
+                src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+        </div> -->
     </div>
 
-    <div id="s3" class="w-100 h-100vh d-flex flex-column align-items-center justify-content-center">
-        <div class="mb-4 text-center p-5" style="width: 60%;">
+    <div id="s3" class="w-100 d-flex flex-column align-items-center">
+        <div class="text-center p-5">
             <h1>Members Of Our Team</h1>
             <hr>
         </div>
-        <div class="d-flex flex-wrap justify-content-between" style="width: 70%;">
-            <div class="p-3 d-flex flex-column align-items-center">
-                <img src="img/person.jpg" class="rounded-circle" width="150" height="150"> 
-                <div style="font-size: 1.2rem;">Name name</div>
-                <small class="text-main"><i>Role in team</i></small>
-            </div>
-
+        <div class="d-flex flex-wrap justify-content-between" style="width: 50%;">
             <div class="p-3 d-flex flex-column align-items-center">
                 <img src="img/person.jpg" class="rounded-circle" width="150" height="150"> 
                 <div style="font-size: 1.2rem;">Name name</div>
@@ -84,17 +132,59 @@
                 <small class="text-main"><i>Role in team</i></small>
             </div>
         </div>
+
+        <div class="text-center p-5">
+            <h1>Special Thanks</h1>
+            <hr>
+        </div>
+        <div class="d-flex flex-wrap justify-content-between mb-4" style="width: 60%;">
+            <div class="p-3 d-flex flex-column align-items-center">
+                <img src="img/person.jpg" class="rounded-circle" width="150" height="150"> 
+                <div style="font-size: 1.2rem;">Name name</div>
+                <small class="text-main"><i>Role in team</i></small>
+                <small class=""><i>some comment</i></small>
+            </div>
+
+            <div class="p-3 d-flex flex-column align-items-center">
+                <img src="img/person.jpg" class="rounded-circle" width="150" height="150"> 
+                <div style="font-size: 1.2rem;">Name name</div>
+                <small class="text-main"><i>Role in team</i></small>
+                <small class=""><i>some comment</i></small>
+            </div>
+
+            <div class="p-3 d-flex flex-column align-items-center">
+                <img src="img/person.jpg" class="rounded-circle" width="150" height="150"> 
+                <div style="font-size: 1.2rem;">Name name</div>
+                <small class="text-main"><i>Role in team</i></small>
+                <small class=""><i>some comment</i></small>
+
+            </div>
+
+            <div class="p-3 d-flex flex-column align-items-center">
+                <img src="img/person.jpg" class="rounded-circle" width="150" height="150"> 
+                <div style="font-size: 1.2rem;">Name name</div>
+                <small class="text-main"><i>Role in team</i></small>
+                <small class=""><i>some comment</i></small>
+
+            </div>
+
+            <div class="p-3 d-flex flex-column align-items-center">
+                <img src="img/person.jpg" class="rounded-circle" width="150" height="150"> 
+                <div style="font-size: 1.2rem;">Name name</div>
+                <small class="text-main"><i>Role in team</i></small>
+                <small class=""><i>some comment</i></small>
+
+            </div>
+
+        </div>
     </div>
 
-    <div id="s4" class="w-100 h-100vh bg-secondary d-flex align-items-center justify-content-center">
-    </div>
-
-    <div style="background-color: #231f20;" class="w-100 p-5 d-flex  align-items-center justify-content-between">
+    <div style="background-color: #231f20;" class="w-100 p-5 d-flex flex-wrap align-items-center justify-content-between">
         <div>
             <div class="d-flex justify-content-center text-white mb-3">
-                <a class="btn text-white footer-link me-2" aria-current="page" href="#s2"> Overview</a>
-                <a class="btn text-white footer-link me-2" href="#s3">Team members</a>
-                <a class="btn text-white footer-link me-2" href="#s4">Special Thanks</a>
+                <a class="btn text-white footer-link me-2" aria-current="page" href="#s1"> Overview</a>
+                <a class="btn text-white footer-link me-2" href="#s3">Details</a>
+                <a class="btn text-white footer-link me-2" href="#s4">Team</a>
             </div>
             <h6 class="mb-0 ms-2 text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ae122a" class="bi bi-envelope-fill" viewBox="0 0 16 16">

@@ -2,6 +2,10 @@
     height: 100vh;
 }
 
+.min-h-100vh {
+    min-height: 100vh;
+}
+
 .nav-link {
     transition: 0ms;
     border-color: white white white white !important;
